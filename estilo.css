@@ -1,0 +1,108 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+#voltar{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#btn{
+    background-color: #333;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: #333;
+    border: 2px solid white;
+}
+
+#ind_lin {
+    text-align: center;
+    background-color: #333;
+    height: 50px;
+    align-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.c2{
+    text-align: center;
+    background-color: red;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.c1{
+    text-align: center;
+    background-color: green;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    
+}
+
+#bt_n {
+    text-align: center;
+}
+
+#img_p {
+    text-align: center;
+}
+
+#nextButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#flagImage {
+    width: 10%;
+    height: 70%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
